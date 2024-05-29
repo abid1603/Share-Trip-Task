@@ -24,7 +24,7 @@ export default function Section4() {
                 </div>
             </div>
             <div className='pt-[16px]'>
-                <div className='h-[52px] bg-[#FFE1C2] rounded-md pl-[12px] pr-[6px] py-[8px]  flex justify-center items-center gap-2'>
+                <div className='h-[52px] bg-[#FFE1C2] rounded-md pl-[10px] pr-[2px] py-[8px] flex justify-center items-center gap-2' style={{border:"2px solid #f7dbc4"}}>
                     <img src={warning} className="w-[17px] h-[17px]" alt="Airplane Icon" />
                     <span className='text-[12px] text-[#3E4957] font-Murecho'>Technical stoppage at Malpensa International Airport (Milano). Before booking this flight please check your visa requirements as per your nationality</span>
                 </div>

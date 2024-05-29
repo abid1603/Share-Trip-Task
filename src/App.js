@@ -16,11 +16,11 @@ function App() {
       <div id="bodyContent" className="flex justify-center h-full gap-6">
         <div
           id="left content"
-          className="w-[248px] bg-white h-screen my-4 rounded-lg"
+          className="w-[248px] max-xl:hidden block bg-white min-h-screen my-4 rounded-lg"
         ></div>
         <div id="right content" className="my-4">
           <BreadCum/>
-          <div className="w-[840px] bg-white h-screen rounded-lg">
+          <div className="w-[840px] bg-white min-h-screen rounded-lg pb-5">
             <Section1/>
             <Section2 text1="Departure from Dhaka" text2Normal=" Hazrat Shahjalal International Airport" text2Bold="Terminal 1:" icon={locationIcon} backgroundColor="#F5F7FA"/>
             <Section3/>

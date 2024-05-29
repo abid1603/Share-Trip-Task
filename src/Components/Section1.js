@@ -5,7 +5,7 @@ export default function Section1() {
   return (
     <div
       id="section1"
-      className="h-[76px] border-b-[1px] px-[20px] py-[16px] flex items-center justify-between"
+      className="border-b-[1px] px-[20px] py-[16px] lg:flex max-lg:ml-10 items-center justify-between"
     >
       <div className="flex">
         <div className="flex items-center">
