@@ -49,7 +49,7 @@ export default function Section1() {
         </div>
       </div>
       <div className="rounded-full bg-[#E8F3FF] py-[4px] px-[8px]">
-        <div className="text-[12px] text-[#1882FF] font-medium">33h 20m</div>
+        <div className="text-[12px] text-[#1882FF] font-medium" style={{width: "max-content"}}>33h 20m</div>
       </div>
     </div>
   );
